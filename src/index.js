@@ -2,16 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className='bgImage'><h1 className='heading'>CRYPTO CURRENCY CONVERTER</h1></div>
     <App />
+    <div className='footer'>
+    <p className='about'>
+      <a href=''>@Sakshi_Bharti</a>
+      &nbsp; &nbsp;
+      <a href=''>@Aman_Kumar_Singh</a>
+    </p></div>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

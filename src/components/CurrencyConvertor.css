@@ -1,0 +1,36 @@
+.currency-convert{
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.table{
+    margin-left: 35%;
+    margin-bottom: 15px;
+}
+
+.currency-option{
+  background-image: url('../img/bit.png');
+}
+
+.btn {
+    /* -webkit-border-radius: 5;
+    -moz-border-radius: 5; */
+    border-radius: 5px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background: #FCD535;
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+    border: 0px solid #FCD535 ;
+  }
+  
+  .btn:hover {
+    background: #f1d254;
+    text-decoration: none;
+  }
+
+  .emoji{
+    height: 15px;
+  }
