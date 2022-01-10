@@ -5,7 +5,8 @@ import axios from 'axios';
 import btw from '../img/bit.png';
 //import crypto from '../img/crypto.png';
 const CurrencyConvertor = () =>{
-    const currencies = ['BTC', 'ETH', 'USD', 'XRP', 'LTC', 'ADA'] // array of currency
+    const currencies = ['BTC', 'ETH'] // array of currency
+    const currencies1 = ['BTC', 'ETH', 'USD', 'XRP', 'LTC', 'ADA']
     const [chosenPrimaryCurrency, setPrimaryCurrency] = useState('BTC') // to save the Primary chosen currency
     const [chosenSecondryCurrency, setSecondryCurrency] = useState('BTC') // to save the Secondry chosen currency
     const [amount, setAmount] = useState(1) // to set the amount
@@ -88,7 +89,7 @@ const CurrencyConvertor = () =>{
                                 className = "currency-option"
                                 onChange={(e) => setSecondryCurrency(e.target.value)}
                                 >
-                                    {currencies.map((currency, _index) => (<option key = {_index}>{currency}</option>))}
+                                    {currencies1.map((currency, _index) => (<option key = {_index}>{currency}</option>))}
                                 </select>
                             </td>
                         </tr>

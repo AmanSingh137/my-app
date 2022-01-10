@@ -1,8 +1,10 @@
 .news-feed{
+    margin-top: 60px;
     background-color: white;
-    
-}
-
-.title{
     padding-left: 40px;
+    border-style: groove;
+    border-radius: 50px;
+    border-width: 10px;
+    border-color: antiquewhite;
+    
 }
