@@ -43,6 +43,8 @@ const CurrencyConvertor = () =>{
     console.log(exchangeRate)
     return(
         <div className="currency-convert">
+            <br />
+            <br />
             <h3>Welcome To Currency Converter</h3>
             <div className = "input-box">
                 <table className="table">
@@ -60,13 +62,13 @@ const CurrencyConvertor = () =>{
                                 />
                             </td>
                             <td>
-                                <select 
+                                <select
                                 value={chosenPrimaryCurrency}
                                 name="currency-option-1" 
                                 className = "currency-option"
                                 onChange={(e) => setPrimaryCurrency(e.target.value)}
                                 >
-                                    {currencies.map((currency, _index) => (<option key={_index}>{currency}</option>))}
+                                 {currencies.map((currency, _index) => (<option key={_index}>{currency}</option>))}
                                 </select>
                             </td>
                         </tr>
@@ -106,6 +108,7 @@ const CurrencyConvertor = () =>{
                 ChosenSecondryCurency={secondaryCurrencyExchange}
             />
         </div>
+
     )
 }
 

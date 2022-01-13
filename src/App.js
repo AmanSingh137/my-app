@@ -1,10 +1,10 @@
 import './App.css';
 import NewsFeed from './components/NewsFeed';
-import CurrencyConvertor from './components/CurrencyConvertor';
+import NavBar from './components/NavBar';
 function App() {
   return (
     <div className='app'>
-      <CurrencyConvertor />
+      <NavBar />
       <NewsFeed />
     </div>
   )

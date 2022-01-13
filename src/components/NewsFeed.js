@@ -44,7 +44,7 @@ const NewsFeed = () => {
 
     console.log(article)
 
-    const first7Article = article?.slice(0,7)
+    const first7Article = article?.slice(0,10)
     return (
         <div className="news-feed">
             <h1>News Feeds</h1>

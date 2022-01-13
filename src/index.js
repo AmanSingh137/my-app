@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <div className='bgImage'><h1 className='heading'>CRYPTO CURRENCY CONVERTER</h1></div>
