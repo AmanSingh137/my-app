@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import './NavBar.css';
-import ReactDOM from 'react-dom';
 import CurrencyConvertor from "./CurrencyConvertor";
 import TrackerCrypto from "./TrackerCrypto";
 
