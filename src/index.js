@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='bgImage'><h1 className='heading'>CRYPTO CURRENCY CONVERTER</h1></div>
+    <div className='bgImage'><h1 className='heading'>YOUR CRYPTO</h1></div>
     <App />
     <div className='footer'>
     <p className='about'>
